@@ -827,7 +827,7 @@ fi
 # Enable deflate_medium at level 4-6
 if test $without_new_strategies -eq 0; then
     CFLAGS="${CFLAGS} -DMEDIUM_STRATEGY"
-    SFLAGS="${SFLAGS} -DMEDIUM_STRATEG"
+    SFLAGS="${SFLAGS} -DMEDIUM_STRATEGY"
 fi
 
 fi
