@@ -832,6 +832,7 @@ fi
 
 fi
 
+#zym  for testing
 #Check whether -mfpu=neon is available
 cat > $test.c << EOF
 int main() { return 0; }
